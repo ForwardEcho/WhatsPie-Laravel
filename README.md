@@ -44,7 +44,7 @@ Setup Environment File
 ## Setup API Token Whatspie
 Pertama Login/Register akun di [Whatspie](https://app.whatspie.com/login). Lalu pergi ke menu Devices dan tambahkan
 
-![image](![image](https://github.com/user-attachments/assets/050e08bf-a083-49af-aa35-cb04554c6060))
+![image](https://github.com/user-attachments/assets/050e08bf-a083-49af-aa35-cb04554c6060)
 
 kemudian subscribe package, aku ambil versi gratis
 ![image](https://github.com/user-attachments/assets/1c7bc4b9-ed20-4feb-ab94-73304631f749)
