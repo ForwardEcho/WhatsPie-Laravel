@@ -19,7 +19,7 @@ class WhatsPie extends Controller
         $headers = [
             'Content-Type' => 'application/json',
             'Accept' => 'application/json',
-            'Authorization' => 'Bearer kObO0tLzZiQr90YyLp0S3QSAHjy13sSSkauogzAi2nPeV07NLx'
+            'Authorization' => 'Bearer <TOKEN>'
         ];
 
         $data = [
