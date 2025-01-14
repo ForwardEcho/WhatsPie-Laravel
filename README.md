@@ -49,7 +49,7 @@ Pertama Login/Register akun di [Whatspie](https://app.whatspie.com/login). Lalu 
 Kemudian subscribe package, aku ambil versi gratis
 ![image](https://github.com/user-attachments/assets/1c7bc4b9-ed20-4feb-ab94-73304631f749)
 
-Kemudian masukkan nomor telepon pribadi / admin
+Kemudian masukkan nomor telepon pribadi atau admin perusahaan
 ![image](https://github.com/user-attachments/assets/fd6506ee-67df-4a82-9489-8e52c55b8dbb)
 
 Masukkan kode otp yang dikirim melalui whatsapp
