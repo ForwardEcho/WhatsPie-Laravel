@@ -15,15 +15,14 @@ Fitur utama Whatspie:
 - Integrasi dengan Sistem Lain: Memungkinkan integrasi dengan CRM, ERP, atau aplikasi lainnya.
 Jika Anda ingin mempelajari lebih lanjut, silakan kunjungi situs resmi Whatspie atau dokumentasi API mereka untuk detail teknis dan cara penggunaannya.
 
-
-
-## Documentation
+## Whatspie Documentation
 
 [Whatspie Documentation](https://docs.whatspie.com)
 
 
 ## Installation
-
+### Features
+- Send Bulk Message
 Install my-project with npm
 
 ```bash
