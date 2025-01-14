@@ -65,7 +65,7 @@ Akan muncul notifikasi seperti berikut, jika kalian berhasil menambahkan device
 buka menu profile setting, kemudian copy API Key
 ![image](https://github.com/user-attachments/assets/a675b9fa-6f00-450b-bf13-8b532f31effe)
 
-Lalu masukkan API Key kedalam file app\Http\Controllers\WhatsPie.php pada bagian 
+Lalu masukkan API Key kedalam file `app\Http\Controllers\WhatsPie.php` pada bagian 
 ```env
   $headers = [
             'Content-Type' => 'application/json',
