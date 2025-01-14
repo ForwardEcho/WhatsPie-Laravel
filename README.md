@@ -19,10 +19,11 @@ Jika Anda ingin mempelajari lebih lanjut, silakan kunjungi situs resmi Whatspie 
 
 [Whatspie Documentation](https://docs.whatspie.com)
 
+## Features
+- Send Bulk Message
 
 ## Installation
-### Features
-- Send Bulk Message
+
 Install my-project with npm
 
 ```bash
