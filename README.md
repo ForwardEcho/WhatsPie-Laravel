@@ -24,23 +24,13 @@ Jika Anda ingin mempelajari lebih lanjut, silakan kunjungi situs resmi [Whatspie
 
 ## Installation
 
-Install my-project with npm
-
 ```bash
   git clone https://github.com/ForwardEcho/WhatsPie-Laravel
   cd WhatsPie-Laravel
   cp .env.example .env
+  php artisan key:generate
 
 ```
-Setup Environment File
-```env
-  DB_CONNECTION=mysql
-  DB_PORT=3306
-  DB_HOST=localhost
-  DB_USERNAME=root
-  DB_PASSWORD=<password>
-```
-
 ## Setup API Token Whatspie
 Pertama Login/Register akun di [Whatspie](https://app.whatspie.com/login). Lalu pergi ke menu Devices dan tambahkan
 
@@ -65,14 +55,16 @@ Akan muncul notifikasi seperti berikut, jika kalian berhasil menambahkan device
 buka menu profile setting, kemudian copy API Key
 ![image](https://github.com/user-attachments/assets/a675b9fa-6f00-450b-bf13-8b532f31effe)
 
-Lalu masukkan API Key kedalam file `app\Http\Controllers\WhatsPie.php` pada bagian 
+Setup Environment File
 ```env
-  $headers = [
-            'Content-Type' => 'application/json',
-            'Accept' => 'application/json',
-            'Authorization' => 'Bearer <TOKEN>'
-        ];
+  DB_CONNECTION=mysql
+  DB_PORT=3306
+  DB_HOST=localhost
+  DB_USERNAME=root
+  DB_PASSWORD=<password>
+  WHATSPIE_TOKEN=<token>
 ```
+
 jika sudah, coba kirim pesan pada halaman berikut http://localhost:8000/send-message
 ![image](https://github.com/user-attachments/assets/529c531a-093c-4aad-9a1d-e841c6bb92c8)
 | Type     | Description                |
