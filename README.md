@@ -13,7 +13,7 @@ Fitur utama Whatspie:
 - Efisiensi Waktu: Menghemat waktu dalam pengiriman pesan ke banyak pengguna sekaligus.
 - Skalabilitas: Cocok untuk bisnis kecil hingga besar.
 - Integrasi dengan Sistem Lain: Memungkinkan integrasi dengan CRM, ERP, atau aplikasi lainnya.
-Jika Anda ingin mempelajari lebih lanjut, silakan kunjungi situs resmi Whatspie atau dokumentasi API mereka untuk detail teknis dan cara penggunaannya.
+Jika Anda ingin mempelajari lebih lanjut, silakan kunjungi situs resmi [Whatspie](https://whatspie.com).
 
 ## Whatspie Documentation
 
