@@ -22,14 +22,12 @@ Jika Anda ingin mempelajari lebih lanjut, silakan kunjungi situs resmi [Whatspie
 ## Features
 - Send Bulk Message
 
-## Installation
+## Clonning Repo
 
 ```bash
   git clone https://github.com/ForwardEcho/WhatsPie-Laravel
   cd WhatsPie-Laravel
   cp .env.example .env
-  php artisan key:generate
-
 ```
 ## Setup API Token Whatspie
 Pertama Login/Register akun di [Whatspie](https://app.whatspie.com/login). Lalu pergi ke menu Devices dan tambahkan
@@ -55,7 +53,7 @@ Akan muncul notifikasi seperti berikut, jika kalian berhasil menambahkan device
 buka menu profile setting, kemudian copy API Key
 ![image](https://github.com/user-attachments/assets/a675b9fa-6f00-450b-bf13-8b532f31effe)
 
-Setup Environment File
+Setup Environment File (.env)
 ```env
   DB_CONNECTION=mysql
   DB_PORT=3306
@@ -63,6 +61,12 @@ Setup Environment File
   DB_USERNAME=root
   DB_PASSWORD=<password>
   WHATSPIE_TOKEN=<token>
+```
+Run Locally
+```bash
+  php artisan key:generate
+  php artisan migrate
+  php artisan serve
 ```
 
 jika sudah, coba kirim pesan pada halaman berikut http://localhost:8000/send-message
