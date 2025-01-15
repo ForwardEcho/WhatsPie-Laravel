@@ -37,7 +37,7 @@ Setup Environment File
   DB_CONNECTION=mysql
   DB_PORT=3306
   DB_HOST=localhost
-  DB_USERNAME=<user>
+  DB_USERNAME=root
   DB_PASSWORD=<password>
 ```
 
